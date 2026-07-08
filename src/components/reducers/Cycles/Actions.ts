@@ -28,3 +28,8 @@ export function MarkCurrentCycleAsFinishedAction() {
         type: ActionTypes.MARK_CURRENT_CYCLE_AS_FINISHED,
     }
 }
+
+export type CyclesActionTypes =
+    | ReturnType<typeof addNewCycleAction>
+    | ReturnType<typeof InterruptCurrentCycleAction>
+    | ReturnType<typeof MarkCurrentCycleAsFinishedAction>
