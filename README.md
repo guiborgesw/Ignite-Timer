@@ -11,9 +11,11 @@ Ignite Timer is a Pomodoro-style timer application built to help users stay focu
 ### Features
 
 - ✅ Create new timer cycles linked to a specific task
-- ⏳ Real-time countdown with start/interrupt controls
-- 📋 Form validation for task creation
-- 📅 History of created cycles *(in progress)*
+- ✅ Real-time countdown with start/interrupt controls
+- ✅ Form validation for task creation
+- ✅ History page with completed, interrupted and in-progress cycles
+- ✅ Scrollable history list with a sticky table header
+- ✅ Cycle state persistence (localStorage)
 
 ## 🚀 Technologies
 
@@ -23,11 +25,11 @@ Ignite Timer is a Pomodoro-style timer application built to help users stay focu
 - **date-fns** — date manipulation and formatting
 - **React Router** — application routing
 - **styled-components** — custom styling with a unique visual identity
+- **Immer** — immutable state updates in the reducer
 - **ESLint** — code quality and standardization
 
-## 🔜 In Development
+## 🔜 Possible Next Steps
 
-- Fully functional history page
 - Habit/cycle statistics and analytics
 - Back-end
 - Database
